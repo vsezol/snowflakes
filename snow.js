@@ -1,5 +1,4 @@
-// const flake_url = 'http://usefulscript.ru/image/snow/the_snow.gif'
-const flake_url = 'https://1.downloader.disk.yandex.ru/preview/f129698ccebaa165e1fddb7caad4d5d8e9159bcadbc39f22696b1b989dfa388a/inf/s1GfirPr6cwz-LGA0N4Q9OWaM4qXveXvTHidPLbcVdtr-VxPQnzlcomLJLUsBWzMhr9P2xeyH10NyTiFT2NvUQ==?uid=374864132&filename=flake.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&owner_uid=374864132&size=1349x657'
+const flake_url = 'http://usefulscript.ru/image/snow/the_snow.gif'
 
 const new_flake = () => {
     const flake = document.createElement('img')
@@ -34,6 +33,6 @@ setInterval(() => {
         }
         f.style.top = `${curr_h}%`
         f.style.left = `${curr_left}%`
-        if (curr_h >= 100) f.remove()  
+        if (curr_h >= 95) f.remove()  
     })
 }, 100)
