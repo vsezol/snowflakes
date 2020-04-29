@@ -1,5 +1,5 @@
-const flake_url = 'http://usefulscript.ru/image/snow/the_snow.gif'
-
+// const flake_url = 'http://usefulscript.ru/image/snow/the_snow.gif'
+const flake_url = 'https://i.ibb.co/47qkPJF/flake.png'
 const new_flake = () => {
     const flake = document.createElement('img')
     flake.style.position = 'absolute'
